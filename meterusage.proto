@@ -1,0 +1,9 @@
+syntax = "proto3";
+service MeterUsage {
+    rpc GetMeterUsage (MeterUsageReq) returns (MeterUsageRes) {}
+}
+message MeterUsageReq {}
+
+message MeterUsageRes {
+    string data = 1;
+}
