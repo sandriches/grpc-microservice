@@ -1,3 +1,3 @@
-METER_FILE_PATH = "meterusage.csv"
+METER_FILE_PATH = "data/meterusage.csv"
 MAX_WORKERS = 10
 GRPC_PORT_NUMBER = "50051"

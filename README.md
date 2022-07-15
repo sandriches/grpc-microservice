@@ -8,7 +8,7 @@ Python 3.5 or higher
 To update pip:
 ```python -m pip install --upgrade pip```
 
-To install all required packages:
+To install all required packages for servers:
 ```pip install -r requirements.txt```
 
 To generate grpc files:
@@ -17,3 +17,9 @@ To generate grpc files:
 To run servers:
 ```python grpc-server.py```
 ```python http-server.py```
+
+To install packages for frontend:
+```cd front && npm install```
+
+To run frontend application (when in front/ directory):
+```npm start```

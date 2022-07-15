@@ -17,7 +17,7 @@ def csv_to_json(metrics_data):
 
     for singleline in data:
         columns = singleline.split(',')
-        json_response.append({"time": columns[0], "meter_usage": columns[1]})
+        json_response.append({"time": columns[0], "meterusage": columns[1]})
     
     return json.dumps(json_response)
 
