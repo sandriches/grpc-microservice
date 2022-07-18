@@ -4,7 +4,7 @@ from flask_cors import CORS
 import grpc
 import json
 
-from common import GRPC_PORT_NUMBER
+from common import GRPC_PORT_NUMBER, HTTP_PORT_NUMBER
 import meterusage_pb2
 import meterusage_pb2_grpc
 
@@ -35,4 +35,4 @@ def get_meter_usage_json():
         return response
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=HTTP_PORT_NUMBER)
