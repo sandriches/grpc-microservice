@@ -8,6 +8,8 @@ Python 3.5 or higher
 To update pip:
 ```python -m pip install --upgrade pip```
 
+To modify port numbers, change values in ```common.py```
+
 To install all required packages for servers:
 ```pip install -r requirements.txt```
 
