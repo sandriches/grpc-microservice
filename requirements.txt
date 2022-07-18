@@ -2,4 +2,5 @@ Flask==2.1.2
 Flask_Cors==3.0.10
 grpc==1.0.0
 grpcio==1.47.0
+grpcio-testing==1.47.0
 protobuf==4.21.2

@@ -23,3 +23,11 @@ To install packages for frontend:
 
 To run frontend application (when in front/ directory):
 ```npm start```
+
+To run tests:
+```cd tests && python runtests.py```
+
+
+# Future improvements
+- More responsive frontend, charts etc
+- Server stream grpc data instead of unary
